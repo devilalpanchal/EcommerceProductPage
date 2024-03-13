@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 20px;
+    /* padding: 20px; */
+    /* width: 71%; */
+    border-bottom: 2px solid rgb(94, 94, 119);
+    /* margin-left: 100px; */
+    /* border: 1px solid red; */
+    padding-bottom: 20px;
+}
+.name{
+    display: flex;
+    gap: 40px;
+}
+.cartImage{
+    display: flex;
+    gap: 40px;
+}
+.imgOfAvatar{
+    width: 30px;
+    height: 30px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
