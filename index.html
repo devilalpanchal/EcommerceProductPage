@@ -8,6 +8,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
   <title>Frontend Mentor | E-commerce product page</title>
   <link rel="stylesheet" href="style.css">
 
@@ -16,33 +21,102 @@
 <div class="mainContainer">
   <header class="header">
     <div class="logo"><img src="./images/logo.svg" alt=""></div>
-    <div class="name">
-      <div>
-        Collections
-
+    <divn class="nameandCartHeader">
+      <div class="name">
+        <div>
+          Collections
+  
+        </div>
+        <div>
+          Men
+  
+        </div>
+        <div>
+          Women
+  
+        </div>
+        <div>
+          About
+  
+        </div>
+        <div>
+          Contact
+  
+        </div>
       </div>
-      <div>
-        Men
-
-      </div>
-      <div>
-        Women
-
-      </div>
-      <div>
-        About
-
-      </div>
-      <div>
-        Contact
-
+      <div class="cartImage">
+        <div><img src="./images/icon-cart.svg" alt=""></div>
+        <div><img class="imgOfAvatar" src="./images/image-avatar.png" alt=""></div>
       </div>
     </div>
-    <div class="cartImage">
-      <div><img src="./images/icon-cart.svg" alt=""></div>
-      <div><img class="imgOfAvatar" src="./images/image-avatar.png" alt=""></div>
-    </div>
+    
   </header>
+  <section class="content">
+
+    <div class="ImgeContainer">
+      <div>
+        <img class="imageBig" src="./images/image-product-1.jpg" alt="">
+      </div>
+      <div class="imgSmall">
+        <div><img class="imge1" src="./images/image-product-1-thumbnail.jpg" alt=""></div>
+        <div><img class="imge1" src="./images/image-product-2-thumbnail.jpg" alt=""></div>
+        <div><img class="imge1" src="./images/image-product-3-thumbnail.jpg" alt=""></div>
+        <div><img class="imge1" src="./images/image-product-4-thumbnail.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <div class="RightAside">
+      <div class="companyName">Sneaker Company
+      </div>
+      <div>
+        <h1 class="limited"> Fall Limited Edition Sneakers
+
+        </h1>
+      </div>
+      <div class="paragraph">
+
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </div>
+      <div>
+        <span class="note">
+          <b>
+            $125.00
+
+          </b>
+
+        </span>
+        <span class="percent">
+          <b>
+            50%
+
+          </b>
+
+        </span>
+      </div>
+      <div>
+        <del>
+          $250.00
+
+        </del>
+      </div>
+      <div class="DandBtn">
+        <div class="incresdecrese">
+          <div id="minus">
+            <b>-</b></div>
+          <div id="zero"><b>0</b></div>
+          <div id="plus"><b>+</b></div>
+        </div>
+
+        <div>
+          <button class="cartBtn"><img src="./images/icon-cartBtn.svg" alt=""> &nbsp; Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
 </div>
 
 
@@ -53,16 +127,13 @@
 <body>
 
 
-  <!-- Sneaker Company
+  <!-- 
 
-  Fall Limited Edition Sneakers
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+  
 
-  $125.00
-  50%
-  $250.00
+ 
+ 
 
   0
   Add to cart -->

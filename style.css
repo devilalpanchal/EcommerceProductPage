@@ -1,32 +1,158 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 50px;
     margin-top: 20px;
-    /* padding: 20px; */
-    /* width: 71%; */
     border-bottom: 2px solid rgb(94, 94, 119);
-    /* margin-left: 100px; */
-    /* border: 1px solid red; */
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
-.name{
+.nameandCartHeader{
+    display: flex;
+    gap: 550px;
+    margin-top: 20px;
+
+}
+.name {
+    display: flex;
+    gap: 30px;
+}
+
+.cartImage {
     display: flex;
     gap: 40px;
 }
-.cartImage{
-    display: flex;
-    gap: 40px;
-}
-.imgOfAvatar{
+
+.imgOfAvatar {
     width: 30px;
     height: 30px;
 }
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+.name>div:hover {
+    border-bottom: 3px solid rgb(221, 173, 16);
+}
+
+.imageBig {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.ImgeContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 15px;
+}
+
+.RightAside {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 450px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.imgSmall {
+    display: flex;
+    gap: 53px;
+}
+
+.imge1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.imge1:hover {
+    border: 2px solid red;
+    filter: blur(1px);
+}
+
+.companyName{
+    color: #ffac6a;
+    font-size: 20px;
+}
+.limited{
+    font-size: 45px;
+}
+.paragraph{
+    font-size: 18px;
+}
+.note{
+    font-size: 30px;
+}
+.percent{
+    color: #d56927;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #fcefe5;
+}
+.DandBtn{
+    display: flex;
+    gap: 10px;
+}
+.incresdecrese{
+    width: 170px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: #fcf7fc;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cartBtn{
+    width: 255px;
+    padding: 15px;
+    background-color:#ce651b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#minus{
+    color: #ce651b;
+    font-size: 40px;
+}
+#plus{
+    color: #ce651b;
+    font-size: 30px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 20px;
+    color: rgb(38, 97, 74);
+
+}
