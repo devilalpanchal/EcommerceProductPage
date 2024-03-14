@@ -1,5 +1,4 @@
 
-
 const minus = document.querySelector('#minus')
 const plus = document.querySelector('#plus')
 const zero = document.querySelector('#zero')
@@ -18,7 +17,6 @@ const Simage01 = document.querySelector('#Simage01')
 const Simage02 = document.querySelector('#Simage02')
 const Simage03 = document.querySelector('#Simage03')
 const Simage04 = document.querySelector('#Simage04')
-
 
 // to increase & decrese****************
 let count = 0
