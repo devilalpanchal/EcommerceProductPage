@@ -66,6 +66,10 @@ body {
     width: 30px;
     height: 30px;
 }
+.imgOfAvatar:hover {
+    border: 2px solid #fc9c36;
+    border-radius: 50%;
+}
 
 .name>div:hover {
     border-bottom: 3px solid rgb(221, 173, 16);
@@ -79,7 +83,6 @@ body {
 }
 
 .MovebleImage {
-    /* border: 2px solid red; */
     width: 404px;
     height: 354px;
     border-radius: 10px;
@@ -189,7 +192,57 @@ body {
     color: #ce651b;
     font-size: 30px;
 }
-
+.popup{
+    padding-top: 10px;
+    border: 1px solid rgb(252, 240, 240);
+    width: 240px;
+    height: 190px;
+    position: absolute;
+    right: 70px;
+    top: 73px;
+    border-radius: 10px;
+    gap: 25px;
+    background-color: #ffffff;
+box-shadow:  -35px -35px 70px #eeeeee,
+             35px 35px 70px #ffffff;
+}
+.popImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.popDiv{
+    margin-top: 25px;
+display: flex;
+font-size: 10px;
+gap: 10px;
+padding-left: 15px;
+padding-right: 15px;
+justify-content: center;
+}
+#trash{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.popCart{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(82, 80, 80);
+}
+.popBtn{
+    padding: 10px;
+    width: 210px;
+    margin-left: 14px;
+    background-color: #ff7d1b;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+   
+}
+.empty{
+    text-align: center;
+    margin-top: 50px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;

@@ -11,11 +11,13 @@ const img02 = document.getElementById('devi2')
 const img03 = document.querySelector('#devi3')
 const img04 = document.querySelector('#devi4')
 
-
 const Simage01 = document.querySelector('#Simage01')
 const Simage02 = document.querySelector('#Simage02')
 const Simage03 = document.querySelector('#Simage03')
 const Simage04 = document.querySelector('#Simage04')
+
+
+// to increase & decrese****************
 let count = 0
 minus.addEventListener('click', () => {
     count--
@@ -33,7 +35,6 @@ plus.addEventListener('click', () => {
     division.innerHTML = "  "
     addCart.innerHTML = count
     addCart.append(division)
-
 })
 
 addCartBtn.addEventListener('click', () => {
@@ -44,18 +45,18 @@ addCartBtn.addEventListener('click', () => {
     }
 })
 
+// to image change*********
 Simage01.addEventListener('click',()=>{
     img01.classList.toggle('hide')
     img01.classList.toggle('hide')
     document.location.reload();
 })
-2
+
 Simage02.addEventListener('click',()=>{
     img02.classList.toggle('hide')
     img01.classList.add('hide')
     img03.classList.add('hide')
     img04.classList.add('hide')
-
 })
 
 Simage03.addEventListener('click',()=>{
@@ -63,12 +64,34 @@ Simage03.addEventListener('click',()=>{
     img01.classList.add('hide')
     img02.classList.add('hide')
     img04.classList.add('hide')
-
 })
+
 Simage04.addEventListener('click',()=>{
     img04.classList.toggle('hide')
     img01.classList.add('hide')
     img02.classList.add('hide')
     img03.classList.add('hide')
+})
+
+
+// to pop btn***************
+const imgOfAvatar = document.querySelector('.imgOfAvatar')
+const popup = document.querySelector('.popup')
+const content = document.querySelector('.content')
+imgOfAvatar.addEventListener('click',()=>{
+    popup.classList.toggle('hide')
+})
+// content.addEventListener('click',()=>{
+//     // popup.classList.add('hide')2
+// })
+
+
+// to add imge in pop***********
+const HideEmpety = document.querySelector('.HideEmpety')
+const empty = document.querySelector('.empty')
+
+Simage01.addEventListener('click',()=>{
+HideEmpety.classList.remove('hide')
+empty.classList.add('hide')
 })
 
