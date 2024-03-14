@@ -12,147 +12,107 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-
   <title>Frontend Mentor | E-commerce product page</title>
   <link rel="stylesheet" href="style.css">
-
-
 </head>
-<div class="mainContainer">
-
-  <header class="header">
-    <div class="logo"><img src="./images/logo.svg" alt=""></div>
-    <divn class="nameandCartHeader">
-      <div class="name">
-        <div>
-          Collections
-
-        </div>
-        <div>
-          Men
-
-        </div>
-        <div>
-          Women
-
-        </div>
-        <div>
-          About
-
-        </div>
-        <div>
-          Contact
-
-        </div>
-      </div>
-      <div class="cartImage">
-        <div><img src="./images/icon-cart.svg" alt=""></div>
-        <div><img class="imgOfAvatar" src="./images/image-avatar.png" alt=""></div>
-      </div>
-</div>
-
-</header>
-<div class="addCartInHeader hide">
-
-</div>
-
-
-<section class="content">
-
-  <div class="ImgeContainer">
-    <div class="MovebleImage">
-      <img class="imageBig" src="./images/image-product-1.jpg" alt="">
-    </div>
-    <div class="imgSmall">
-      <div><img class="imge1" src="./images/image-product-1-thumbnail.jpg" alt=""></div>
-      <div><img class="imge1" src="./images/image-product-2-thumbnail.jpg" alt=""></div>
-      <div><img class="imge1" src="./images/image-product-3-thumbnail.jpg" alt=""></div>
-      <div><img class="imge1" src="./images/image-product-4-thumbnail.jpg" alt=""></div>
-    </div>
-  </div>
-
-  <div class="RightAside">
-    <div class="companyName">
-      <b>
-        Sneaker Company
-
-      </b>
-    </div>
-    <div>
-      <h1 class="limited"> Fall Limited Edition Sneakers
-
-      </h1>
-    </div>
-    <div class="paragraph">
-
-      These low-profile sneakers are your perfect casual wear companion. Featuring a
-      durable rubber outer sole, they’ll withstand everything the weather can offer.
-    </div>
-    <div>
-      <span class="note">
-        <b>
-          $125.00
-
-        </b>
-
-      </span>
-      <span class="percent">
-        <b>
-          50%
-
-        </b>
-
-      </span>
-    </div>
-    <div>
-      <del>
-        $250.00
-
-      </del>
-    </div>
-    <div class="DandBtn">
-      <div class="incresdecrese">
-        <div id="minus">
-          <b>-</b>
-        </div>
-        <div id="zero"><b>0</b></div>
-        <div id="plus"><b>+</b></div>
-      </div>
-
-      <div>
-        <button class="cartBtn"><img src="./images/icon-cartBtn.svg" alt=""> &nbsp; Add to cart</button>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-</div>
-
-
-
-<!-- to functionality -->
-<script src="function.js"></script>
-
 <body>
+  <div class="mainContainer">
+    <header class="header">
+      <div class="logo"><img src="./images/logo.svg" alt=""></div>
+      <divn class="nameandCartHeader">
+        <div class="name">
+          <div>
+            Collections
+          </div>
+          <div>
+            Men
+          </div>
+          <div>
+            Women
+          </div>
+          <div>
+            About
+          </div>
+          <div>
+            Contact
+          </div>
+        </div>
+        <div class="cartImage">
+          <div><img src="./images/icon-cart.svg" alt=""></div>
+          <div><img class="imgOfAvatar" src="./images/image-avatar.png" alt=""></div>
+        </div>
+  </div>
+  </header>
+  <div class="addCartInHeader hide">
+  </div>
+  <section class="content">
+    <div class="ImgeContainer">
+      <div class="MovebleImage">
+        <img id="devi1" class="imageBig" src="./images/image-product-1.jpg" alt="">
+        <img id="devi2" class="imageBig hide" src="./images/image-product-2.jpg" alt="">
+        <img id="devi3" class="imageBig hide" src="./images/image-product-3.jpg" alt="">
+        <img id="devi4" class="imageBig hide" src="./images/image-product-4.jpg" alt="">
+      </div>
+      <div class="imgSmall">
+        <div><img id="Simage01" class="imge1" src="./images/image-product-1-thumbnail.jpg" alt=""></div>
+        <div><img id="Simage02" class="imge1" src="./images/image-product-2-thumbnail.jpg" alt=""></div>
+        <div><img id="Simage03" class="imge1" src="./images/image-product-3-thumbnail.jpg" alt=""></div>
+        <div><img id="Simage04" class="imge1" src="./images/image-product-4-thumbnail.jpg" alt=""></div>
+      </div>
+    </div>
 
+    <div class="RightAside">
+      <div class="companyName">
+        <b>
+          Sneaker Company
+        </b>
+      </div>
+      <div>
+        <h1 class="limited"> Fall Limited Edition Sneakers</h1>
+      </div>
+      <div class="paragraph">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </div>
+      <div>
+        <span class="note">
+          <b>
+            $125.00
 
-  <!-- 
+          </b>
 
-
-  
-
- 
- 
-
-  0
-  Add to cart -->
-
+        </span>
+        <span class="percent">
+          <b>
+            50%
+          </b>
+        </span>
+      </div>
+      <div>
+        <del>
+          $250.00
+        </del>
+      </div>
+      <div class="DandBtn">
+        <div class="incresdecrese">
+          <div id="minus">
+            <b>-</b>
+          </div>
+          <div id="zero"><b>0</b></div>
+          <div id="plus"><b>+</b></div>
+        </div>
+        <div>
+          <button class="cartBtn"><img src="./images/icon-cartBtn.svg" alt=""> &nbsp; Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Devilal Panchal</a>.
   </div>
+  <!-- to functionality -->
+  <script src="function.js"></script>
 </body>
-
 </html>

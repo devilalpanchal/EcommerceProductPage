@@ -3,16 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Kumbh Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "YOPQ" 300;
+        "YOPQ" 300;
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -22,27 +25,33 @@ body{
     border-bottom: 2px solid rgb(94, 94, 119);
     padding-bottom: 20px
 }
-.addCartInHeader{
+
+.addCartInHeader {
     position: absolute;
     right: 125px;
     top: 25px;
     color: white;
     font-size: 12px;
     background-color: #ffac6a;
-    /* /* border: 1px solid red; */
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 25px;
-    /* height: 25px; */
     text-align: center;
     padding: 5px;
 }
-.nameandCartHeader{
-    
+
+.addCartInHeader:hover {
+    background-color: red;
+    color: black;
+    font-size: 15px;
+
+}
+
+.nameandCartHeader {
     display: flex;
     gap: 550px;
     margin-top: 20px;
-
 }
+
 .name {
     display: flex;
     gap: 30px;
@@ -68,11 +77,13 @@ body{
     border-radius: 10px;
 
 }
-.MovebleImage{
-    border: 2px solid red;
+
+.MovebleImage {
+    /* border: 2px solid red; */
     width: 404px;
     height: 354px;
     border-radius: 10px;
+    z-index: -1;
 }
 
 .content {
@@ -85,18 +96,15 @@ body{
 .ImgeContainer {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
     gap: 15px;
 }
 
 .RightAside {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
     width: 450px;
     justify-content: center;
     gap: 10px;
-
 }
 
 .imgSmall {
@@ -116,31 +124,37 @@ body{
     filter: blur(1px);
 }
 
-.companyName{
+.companyName {
     color: #ffac6a;
     font-size: 20px;
     font-weight: 400;
 }
-.limited{
+
+.limited {
     font-size: 40px;
 }
-.paragraph{
+
+.paragraph {
     font-size: 11x;
 }
-.note{
+
+.note {
     font-size: 30px;
 }
-.percent{
+
+.percent {
     color: #d56927;
     padding: 4px;
     border-radius: 5px;
     background-color: #fcefe5;
 }
-.DandBtn{
+
+.DandBtn {
     display: flex;
     gap: 10px;
 }
-.incresdecrese{
+
+.incresdecrese {
     width: 170px;
     font-size: 20px;
     justify-content: center;
@@ -151,26 +165,31 @@ body{
     border-radius: 10px;
     padding: 5px;
 }
-.cartBtn{
+
+.cartBtn {
     width: 255px;
     padding: 15px;
-    background-color:#fc9c36;
+    background-color: #fc9c36;
     border: none;
     border-radius: 10px;
     color: white;
     font-size: 20px;
 }
-.cartBtn:hover{
+
+.cartBtn:hover {
     background-color: #ce651b;
 }
-#minus{
+
+#minus {
     color: #ce651b;
     font-size: 40px;
 }
-#plus{
+
+#plus {
     color: #ce651b;
     font-size: 30px;
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
