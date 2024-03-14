@@ -81,9 +81,9 @@ const content = document.querySelector('.content')
 imgOfAvatar.addEventListener('click',()=>{
     popup.classList.toggle('hide')
 })
-// content.addEventListener('click',()=>{
-//     // popup.classList.add('hide')2
-// })
+content.addEventListener('click',()=>{
+    // popup.classList.add('hide')2
+})
 
 
 // to add imge in pop***********
