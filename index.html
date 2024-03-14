@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="cartImage">
-          <div><img src="./images/icon-cart.svg" alt=""></div>
+          <div><img class="imgOfAvatarImage" src="./images/icon-cart.svg" alt=""></div>
           <div><img class="imgOfAvatar" src="./images/image-avatar.png" alt=""></div>
         </div>
     </header>
@@ -83,9 +83,7 @@
           <span class="note">
             <b>
               $125.00
-
             </b>
-
           </span>
           <span class="percent">
             <b>
@@ -115,25 +113,29 @@
   </div>
   <div class="popup hide">
     <h4 class="popCart">Cart</h4>
-    <div class="HideEmpety hide">
+    <div class="HideEmpety ">
       <div class="popDiv">
-        <img class="popImage" src="./images/image-product-1-thumbnail.jpg" alt="">
-        <p>Fall Limited Edition Sneakes $125.00 x 3 <b>$375.00</b> </p>
+        <img  id="ppimage1" class="popImage" src="./images/image-product-1-thumbnail.jpg" alt="">
+        <img id="ppimage2" class="popImage hide" src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img id="ppimage3"  class="popImage hide" src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img id="ppimage4"  class="popImage hide" src="./images/image-product-4-thumbnail.jpg" alt="">
+        <p>Fall Limited Edition Sneakes $125 x  <span class="incresePop">0</span> &nbsp; = <b>$</b> <b class="Multiply125">00</b> </p>
         <div><i id="trash" class="fa-solid fa-trash-can" style="color: #b19191;"></i></div>
       </div>
       <button class="popBtn">Checkout</button>
     </div>
-    <div class="empty">
-      <h5>Your cart is empty</h5>
-    </div>
+   
   </div>
- 
+  <div class="empty hide">
+    <h5>Your cart is empty</h5>
+  </div>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Devilal Panchal</a>.
   </div>
+
   <!-- to functionality -->
   <script src="function.js"></script>
 </body>

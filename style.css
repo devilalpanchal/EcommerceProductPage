@@ -32,7 +32,7 @@ body {
     top: 25px;
     color: white;
     font-size: 12px;
-    background-color: #ffac6a;
+    background-color: red;
     border-radius: 50%;
     width: 25px;
     text-align: center;
@@ -195,13 +195,13 @@ body {
 .popup{
     padding-top: 10px;
     border: 1px solid rgb(252, 240, 240);
-    width: 240px;
-    height: 190px;
+    width: 270px;
+    height: 185px;
     position: absolute;
     right: 70px;
     top: 73px;
     border-radius: 10px;
-    gap: 25px;
+    gap: 10px;
     background-color: #ffffff;
 box-shadow:  -35px -35px 70px #eeeeee,
              35px 35px 70px #ffffff;
@@ -214,11 +214,14 @@ box-shadow:  -35px -35px 70px #eeeeee,
 .popDiv{
     margin-top: 25px;
 display: flex;
-font-size: 10px;
+font-size: 12px;
 gap: 10px;
 padding-left: 15px;
 padding-right: 15px;
 justify-content: center;
+}
+.popDiv>p{
+    width: 160px;
 }
 #trash{
     font-size: 18px;
@@ -231,7 +234,7 @@ justify-content: center;
 }
 .popBtn{
     padding: 10px;
-    width: 210px;
+    width: 240px;
     margin-left: 14px;
     background-color: #ff7d1b;
     border: none;
@@ -242,6 +245,9 @@ justify-content: center;
 .empty{
     text-align: center;
     margin-top: 50px;
+    position: absolute;
+    right: 150px;
+    top: 120px;
 }
 .attribution {
     font-size: 11px;
