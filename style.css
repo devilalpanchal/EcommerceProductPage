@@ -23,7 +23,7 @@ body {
     gap: 50px;
     margin-top: 20px;
     border-bottom: 2px solid rgb(94, 94, 119);
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .addCartInHeader {
@@ -66,6 +66,7 @@ body {
     width: 30px;
     height: 30px;
 }
+
 .imgOfAvatar:hover {
     border: 2px solid #fc9c36;
     border-radius: 50%;
@@ -119,7 +120,6 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 10px;
-
 }
 
 .imge1:hover {
@@ -192,7 +192,8 @@ body {
     color: #ce651b;
     font-size: 30px;
 }
-.popup{
+
+.popup {
     padding-top: 10px;
     border: 1px solid rgb(252, 240, 240);
     width: 270px;
@@ -201,38 +202,43 @@ body {
     right: 70px;
     top: 73px;
     border-radius: 10px;
-    gap: 10px;
     background-color: #ffffff;
-box-shadow:  -35px -35px 70px #eeeeee,
-             35px 35px 70px #ffffff;
+    box-shadow: -35px -35px 70px #eeeeee,
+        35px 35px 70px #ffffff;
 }
-.popImage{
+
+.popImage {
     width: 40px;
     height: 40px;
     border-radius: 5px;
 }
-.popDiv{
+
+.popDiv {
     margin-top: 25px;
-display: flex;
-font-size: 12px;
-gap: 10px;
-padding-left: 15px;
-padding-right: 15px;
-justify-content: center;
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
 }
-.popDiv>p{
+
+.popDiv>p {
     width: 160px;
 }
-#trash{
+
+#trash {
     font-size: 18px;
     margin-top: 10px;
 }
-.popCart{
+
+.popCart {
     padding-left: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(82, 80, 80);
 }
-.popBtn{
+
+.popBtn {
     padding: 10px;
     width: 240px;
     margin-left: 14px;
@@ -240,43 +246,146 @@ justify-content: center;
     border: none;
     border-radius: 10px;
     margin-top: 25px;
-   
 }
-.empty{
+
+.empty {
     text-align: center;
     margin-top: 50px;
     position: absolute;
     right: 150px;
     top: 120px;
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
-
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
     font-size: 16px;
     color: rgb(38, 97, 74);
-
 }
 @media screen and (max-width:375px) {
     .header {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        /* flex-direction: column; */
-       
-    } 
+        gap: 200px;
+        margin-left: 80px;
+        width: 100%;
+        border-bottom: none;
+        margin-top: 30px;
+    }
+
     .content {
         display: flex;
-        justify-content: center;
         flex-direction: column;
         margin-top: 70px;
-        gap: 100px;
+        gap: 55px;
+        margin-top: 0px;
     }
-    
+
+    .RightAside {
+        margin-left: 40px;
+        width: 450px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .imageBig {
+        width: 500px;
+        height: 380px;
+        border-radius: 0px;
+    }
+
+    .imgSmall {
+        display: none;
+    }
+
+    .DandBtn {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .paragraph {
+        font-size: 11x;
+        width: 450px;
+    }
+
+    .incresdecrese {
+        width: 430px;
+        gap: 150px;
+        padding: 16px;
+    }
+
+    .cartBtn {
+        width: 430px;
+        padding: 25px;
+    }
+
+    .companyName {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .notePercentDelete {
+        display: flex;
+        gap: 200px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .threeLine {
+        position: absolute;
+        top: 47px;
+        left: 10px;
+    }
+    .addCartInHeader {
+        position: absolute;
+        left: 380px;
+        top: 30px;
+        
+    }
+    .popup {
+        width: 350px;
+        height: 230px;
+        left: 70px;
+        top: 120px;
+    }
+    .popDiv {
+        margin-top: 40px;
+        display: flex;
+        gap: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: center;
+    }
+    .attribution {
+        text-align: center;
+        margin-left: 130px;
+        display: block;
+    }
+    .popBtn {
+        padding: 15px;
+        width: 315px;
+        margin-top: 30px;
+    }
+    .name {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        padding: 50px;
+        width: 300px;
+        height: 1000px;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 100px;
+    }
+
+
 }
