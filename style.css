@@ -54,7 +54,8 @@ body {
     width: 420px;
     font-size: 18px;
 }
-.logo{
+
+.logo {
     margin-top: 20px;
 }
 
@@ -258,11 +259,13 @@ body {
     right: 150px;
     top: 120px;
 }
-.remove{
+
+.remove {
     color: white;
 }
-.threeLine{
-color: white;
+
+.threeLine {
+    color: white;
 }
 
 .attribution {
@@ -277,6 +280,7 @@ color: white;
     font-size: 16px;
     color: rgb(38, 97, 74);
 }
+
 @media screen and (max-width:375px) {
     .header {
         display: flex;
@@ -352,18 +356,21 @@ color: white;
         left: 10px;
         color: black;
     }
+
     .addCartInHeader {
         position: absolute;
         left: 380px;
         top: 30px;
-        
+
     }
+
     .popup {
         width: 350px;
         height: 230px;
         left: 70px;
         top: 120px;
     }
+
     .popDiv {
         margin-top: 40px;
         display: flex;
@@ -372,24 +379,28 @@ color: white;
         padding-right: 15px;
         justify-content: center;
     }
+
     .empty {
         width: 200px;
         position: absolute;
         left: 140px;
         top: 180px;
-    text-align: center;
+        text-align: center;
 
     }
+
     .attribution {
         text-align: center;
         margin-left: 130px;
         display: block;
     }
+
     .popBtn {
         padding: 15px;
         width: 315px;
         margin-top: 30px;
     }
+
     .name {
         display: none;
         flex-direction: column;
@@ -404,8 +415,9 @@ color: white;
         font-size: 20px;
         padding-top: 100px;
     }
-    .remove{
-        color:black;
+
+    .remove {
+        color: black;
     }
 
 }
