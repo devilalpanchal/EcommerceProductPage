@@ -135,3 +135,14 @@ Simage04.addEventListener('click',()=>{
 })
 
 
+const threeLine =  document.querySelector('.threeLine')
+const name1 =  document.getElementsByClassName('.name')
+const remove =  document.getElementsByClassName('.remove')
+threeLine.addEventListener('click',()=>{
+    name1.classList.toggle('hide')
+console.log('devilal pancha;l');
+})
+remove.addEventListener('click',()=>{
+name1.classList.add('hide')
+
+})
